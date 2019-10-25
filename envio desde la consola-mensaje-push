@@ -1,0 +1,17 @@
+curl https://fcm.googleapis.com/fcm/send --header "Authorization:key=AAAAgOH_5Ws:APA91bG-3jbQ0sAzwjE_4tmAujDatkBvHaOtJ9fmxjpY8is83b6UzgYDjMo3Ic2JWy45Oml17b5-VvuCib2NXC4NygsR992h_G4d88tpMAUpkA7LzZQzpzHJAhoiwF8GFOBr2dSykudN" --header "Content-Type:application/json" -d '{ "notification": { "title": "Hey amigo, lee esto!", "body": "Felicidades!! Has recibido una gloriosa notificación", "icon": "/itwonders-web-logo.png" }, "to" : "c3CAQc1hviw:APA91bFBLaiBQht_frQcJj-QEXaiq9ZbPpyi7TOILc7H1_V5Ql5Cr-l_FgTiyFADGEvBjanybrs5r3Fmn6qSdb9eDKkXfc4iSsLSOLixMgo5tkyScxpM84INz-0YqsgtJ-ZIit10PXCf" }'
+
+
+
+
+
+
+PARAQUE FUNCIONEN LOS MENSAJES SE DEBE CORRER EL SIEGUIENTE COMANDO EN LA CONSOLA
+
+
+php -S 127.0.0.1:8080
+
+https://stackoverflow.com/questions/52159029/firebase-messaging-gettoken-return-null/52159115
+
+EXPLICACION DE LOS ENVIOS DE MENSAJES
+https://www.itwonders-web.com/blog/push-notification-using-firebase-demo-tutorial
+https://desarrolloweb.com/articulos/notificaciones-push-firebase-javascript.html
